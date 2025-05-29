@@ -8,11 +8,14 @@ Projekt vznikol ako súčasť **bakalárskej práce** zameranej na detekciu podv
 ---
 ### Obsah repozitára
 nt504wm/
-├── Modelovanie/ 
+
+├── Modelovanie/
+
 │   ├── `LR.ipynb` – Logistická regresia  
 │   ├── `LightGBM.ipynb` – Model LightGBM  
 │   ├── `NB.ipynb` – Naívny Bayes
 │   └── `RF.ipynb` – Náhodný les  
+
 ├── Pochopenie_dat/
 │   ├── `Pochopenie_dat.ipynb` – Základná analýza a vizualizácia vstupných dát
 │   ├── `fraud_test.csv` – Doplnkový súbor obsahujúci cieľový atribút k súboru `test.csv`  
