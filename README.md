@@ -12,27 +12,47 @@ nt504wm/
 ├── Modelovanie/
 
 │   ├── `LR.ipynb` – Logistická regresia  
+
 │   ├── `LightGBM.ipynb` – Model LightGBM  
+
 │   ├── `NB.ipynb` – Naívny Bayes
+
 │   └── `RF.ipynb` – Náhodný les  
 
 ├── Pochopenie_dat/
+
 │   ├── `Pochopenie_dat.ipynb` – Základná analýza a vizualizácia vstupných dát
+
 │   ├── `fraud_test.csv` – Doplnkový súbor obsahujúci cieľový atribút k súboru `test.csv`  
+
 │   ├── `test.csv` – Testovacie dáta bez klasifikácie (bez atribútu `fraud`)  
+
 │   └── `train.csv` – Tréningové dáta s označením, či ide o podvod alebo nie 
+
 ├── Priprava_dat/
+
 │   ├── `Priprava_dat.ipynb` – Úprava dát pre modelovanie
+
 │   ├── `data.csv` – Spojené dáta z `train.csv`, `test.csv` a `fraud_test.csv`  
+
 │   ├── `dis.csv` – Diskretizované dáta  
+
 │   ├── `dis_red.csv` – Redukované diskretizované dáta  
+
 │   ├── `fraud_test.csv` – Doplnkový súbor obsahujúci cieľový atribút k súboru `test.csv` 
+
 │   ├── `norm.csv` – Normalizované dáta  
+
 │   ├── `norm_red.csv` – Redukované normalizované dáta  
-│   ├── `origin.csv` – Pôvodné, neupravené dáta  
+
+│   ├── `origin.csv` – Pôvodné, neupravené dáta 
+
 │   ├── `origin_red.csv` – Redukované originálne dáta  
-│   ├── `test.csv` – Testovacie dáta bez klasifikácie (bez atribútu `fraud`)  
+
+│   ├── `test.csv` – Testovacie dáta bez klasifikácie (bez atribútu `fraud`) 
+
 │   └── `train.csv` – Tréningové dáta s označením, či ide o podvod alebo nie 
+
 └── README.md
 
 ## Požiadavky
